@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1637769132	Play_cafe_ambience			\Default Work Unit\Play_cafe_ambience	
+	2436698191	Play_indoor_steps			\Default Work Unit\Play_indoor_steps	
+	2593396893	Play_steps_wood			\Default Work Unit\Play_steps_wood	
+	3114179205	Play_coin			\Default Work Unit\Play_coin	
+	3689126666	Play_jump			\Default Work Unit\Play_jump	
+	4248703992	Play_cafe_soft_music			\Default Work Unit\Play_cafe_soft_music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3318846462	indoor_ground			\Default Work Unit\indoor_ground	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	stone	indoor_ground			
+	2058049674	wood	indoor_ground			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21348255	jump1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\jump1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump1		23120
+	180779757	jump2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\jump2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump2		35422
+	367483690	Footsteps Stone (2)	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\Footsteps Stone (2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\indoor_steps\steps_stone\Footsteps Stone (2)		47538
+	404188990	coin	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\coin		33466
+	436447417	cafe_ambience	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\Cafe Ambience Day - 2 - Sound Devices 702 - Senn K6_F58AE4B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\cafe_ambience		322777
+	668658295	Footsteps Stone (3)	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\Footsteps Stone (3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\indoor_steps\steps_stone\Footsteps Stone (3)		45862
+	704923841	cafe_soft_music	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\Soft Music_F58AE4B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\cafe_soft_music		672306
+	754479280	step_wood1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\StepOnWood-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\indoor_steps\steps_wood\step_wood1		70362
+	762521707	step_wood2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Windows\SFX\StepOnWood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\indoor_steps\steps_wood\step_wood2		53806
+

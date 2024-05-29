@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{626E4BA1-7017-4FB4-8C93-90BB05F64F89}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{626E4BA1-7017-4FB4-8C93-90BB05F64F89}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="steps" ID="{DCADE852-5F1E-4A8B-B5FC-5AC2A00ED026}">
+					<ChildrenList>
+						<State Name="None" ID="{77A5DFE9-67E6-4A35-860E-012AC5DC7B82}"/>
+						<State Name="grass" ID="{816DF698-5D1E-4256-B9E1-4509C66F55D1}"/>
+						<State Name="street" ID="{BCE75C3B-3F65-49C3-A660-B46920695788}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="street" ID="{BCE75C3B-3F65-49C3-A660-B46920695788}"/>
+							<EndState Name="grass" ID="{816DF698-5D1E-4256-B9E1-4509C66F55D1}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

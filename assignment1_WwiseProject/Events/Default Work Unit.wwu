@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8AB6C26A-4547-4B44-B7AB-ECD90A43A271}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8AB6C26A-4547-4B44-B7AB-ECD90A43A271}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_mushroom_hit" ID="{2DE23805-C8E4-42CF-9422-5AB0043EFA97}">
+					<ChildrenList>
+						<Action Name="" ID="{FC4F03AD-2275-48F1-97C8-008583D426CE}" ShortID="963956649">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mushroom_hit" ID="{6B65C440-8531-4E5F-B86A-57842B931E86}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_coin" ID="{F6738031-9EB4-4F2C-8B9D-183778946169}">
+					<ChildrenList>
+						<Action Name="" ID="{42F600E7-BA9D-4941-B2EF-03138DE4AAAE}" ShortID="977287166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="coin" ID="{27C76794-E5AC-415B-84D6-84593729FB0D}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_music" ID="{712C8BCA-AF5A-4C3F-A68B-EEC092F7CFF6}">
+					<ChildrenList>
+						<Action Name="" ID="{5E47E86E-8CEC-4506-96B5-E52E26555ED4}" ShortID="880983159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{D46AD382-72BF-4A77-A0F6-FF82D5C645F8}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_crickets_dog" ID="{49CD427E-84D0-4B9E-A8D2-504BE310E681}">
+					<ChildrenList>
+						<Action Name="" ID="{12FD901C-C1CB-4356-9AAE-45B3EF8016FA}" ShortID="980081987">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crickets_dog" ID="{2ACF36B9-CD80-41FB-B673-AF359E22FDE8}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_laughing_witch" ID="{0127A4BB-24B3-48A5-B7FE-CBCE0CEFD385}">
+					<ChildrenList>
+						<Action Name="" ID="{2AE7A2D7-3814-4D60-B578-0581834B3BC8}" ShortID="296673949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="laughing_witch" ID="{436ACF6C-0695-432B-97A6-0145591D54F8}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_door_knock" ID="{47E7600B-E118-482E-A76C-4B5E501CB1AF}">
+					<ChildrenList>
+						<Action Name="" ID="{A6AACFCE-7CF4-4FC3-BE2F-6531945A7944}" ShortID="393704594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_kncok" ID="{D0B32BDA-1573-49B5-B718-88619BAC900D}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_doorbell" ID="{3A726D72-E776-492C-8F50-E3925D489273}">
+					<ChildrenList>
+						<Action Name="" ID="{C3334DE7-FDC0-4399-85B2-B24464C77A2F}" ShortID="906859105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorbell" ID="{B58BFCAF-3B71-480B-A759-3A9A2C2CB85D}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_steps_street" ID="{0AAA8237-E587-4575-B7DC-A0BBE69C1923}">
+					<ChildrenList>
+						<Action Name="" ID="{74634EC8-F838-4E42-BDF6-61FBB70FA5A8}" ShortID="452368801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="steps_street" ID="{53F919EF-81BE-4C02-831A-064DFDFD1E0E}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_steps_grass" ID="{85C11C2A-BB4B-44FB-B66F-FDDCFD20B55F}">
+					<ChildrenList>
+						<Action Name="" ID="{E64375B5-CF93-4B6E-A58B-23F952D08E37}" ShortID="708228486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="steps_grass" ID="{4E6C7A09-24C2-44FB-8CFD-11E0E7B7A54C}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_jump" ID="{F363E0F7-5F6D-4B82-BBDF-C5496A14803D}">
+					<ChildrenList>
+						<Action Name="" ID="{EC865353-B8BF-4540-9B5F-C331227E0A26}" ShortID="157448119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jump" ID="{A44B996D-7EE4-4684-8C7A-9ACDAA044048}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_cafe_soft_music" ID="{343B52BE-610A-413C-A9D1-CE95A7335AC6}">
+					<ChildrenList>
+						<Action Name="" ID="{DB52ADC2-C142-451F-86D2-BB5B566A7E0A}" ShortID="677017036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cafe_soft_music" ID="{0170F7A4-1A0D-4943-8EE7-D04CD323FAE7}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_cafe_ambience" ID="{E3A9F578-8172-40D3-BA31-4435C6AEB4BC}">
+					<ChildrenList>
+						<Action Name="" ID="{FD786C55-6B75-4324-8339-D88DEA34D503}" ShortID="1038953648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cafe_ambience" ID="{35319B7A-8ACB-4C54-8499-7C178EC161D9}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_steps_wood" ID="{770DB508-B2A5-4BEC-8B2C-14134E3C1D99}">
+					<ChildrenList>
+						<Action Name="" ID="{BE59EAD2-D20D-47C8-BF9E-BBA7BE3520B3}" ShortID="474776468">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="steps_wood" ID="{C5FA9B16-8EF4-4B30-8222-C13886A5EF97}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_indoor_steps" ID="{A2F1929E-54DD-42A8-8508-FDC8392DD7B1}">
+					<ChildrenList>
+						<Action Name="" ID="{79CAFFAA-12B8-4910-9123-34C9F88F91DF}" ShortID="590082911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="indoor_steps" ID="{E5A738D6-0410-4FF0-BA12-20E07B3AB697}" WorkUnitID="{636B8CF3-5EB0-4C8B-8215-1D2E8DAF3434}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

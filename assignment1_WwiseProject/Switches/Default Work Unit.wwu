@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA58A016-1C54-45B1-BB99-DA2CC70FFFAF}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{FA58A016-1C54-45B1-BB99-DA2CC70FFFAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="indoor_ground" ID="{A00E7F08-C7C8-47BA-B3F6-1A36A6D19A43}">
+					<ChildrenList>
+						<Switch Name="wood" ID="{276CA792-3B9D-4B91-A64E-B6E570A55DBE}"/>
+						<Switch Name="stone" ID="{584D563A-6825-4421-A552-1FDD379C4133}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

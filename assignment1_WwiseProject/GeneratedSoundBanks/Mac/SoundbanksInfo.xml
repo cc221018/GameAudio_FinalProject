@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="238313759" Language="SFX">
+			<ShortName>music.wav</ShortName>
+			<Path>SFX\music_BF323CA0.wem</Path>
+		</File>
+		<File Id="524071187" Language="SFX">
+			<ShortName>crickets_dog.wav</ShortName>
+			<Path>SFX\crickets_dog_BF323CA0.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="806003811" Language="SFX" Hash="3985751394">
+			<ObjectPath>\SoundBanks\Default Work Unit\GA_project_indoor</ObjectPath>
+			<ShortName>GA_project_indoor</ShortName>
+			<Path>GA_project_indoor.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1637769132" Name="Play_cafe_ambience" ObjectPath="\Events\Default Work Unit\Play_cafe_ambience" DurationType="OneShot" DurationMin="38.406292" DurationMax="38.406292">
+					<IncludedMemoryFiles>
+						<File Id="436447417" Language="SFX">
+							<ShortName>Cafe Ambience Day - 2 - Sound Devices 702 - Senn K6.wav</ShortName>
+							<Path>SFX\Cafe Ambience Day - 2 - Sound Devices 702 - Senn K6_1F2639D6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4248703992" Name="Play_cafe_soft_music" ObjectPath="\Events\Default Work Unit\Play_cafe_soft_music" DurationType="OneShot" DurationMin="89.19619" DurationMax="89.19619">
+					<IncludedMemoryFiles>
+						<File Id="704923841" Language="SFX">
+							<ShortName>Soft Music.wav</ShortName>
+							<Path>SFX\Soft Music_1F2639D6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3114179205" Name="Play_coin" ObjectPath="\Events\Default Work Unit\Play_coin" DurationType="OneShot" DurationMin="0.378707" DurationMax="0.378707">
+					<IncludedMemoryFiles>
+						<File Id="404188990" Language="SFX">
+							<ShortName>coin.wav</ShortName>
+							<Path>SFX\coin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2436698191" Name="Play_indoor_steps" ObjectPath="\Events\Default Work Unit\Play_indoor_steps" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="367483690" Language="SFX">
+							<ShortName>Footsteps Stone (2).wav</ShortName>
+							<Path>SFX\Footsteps Stone (2)_10C4C929.wem</Path>
+						</File>
+						<File Id="668658295" Language="SFX">
+							<ShortName>Footsteps Stone (3).wav</ShortName>
+							<Path>SFX\Footsteps Stone (3)_10C4C929.wem</Path>
+						</File>
+						<File Id="754479280" Language="SFX">
+							<ShortName>StepOnWood-003.wav</ShortName>
+							<Path>SFX\StepOnWood-003_10C4C929.wem</Path>
+						</File>
+						<File Id="762521707" Language="SFX">
+							<ShortName>StepOnWood-005.wav</ShortName>
+							<Path>SFX\StepOnWood-005_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{276CA792-3B9D-4B91-A64E-B6E570A55DBE}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{584D563A-6825-4421-A552-1FDD379C4133}">
+							<Media>
+								<File Id="367483690"/>
+								<File Id="668658295"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{276CA792-3B9D-4B91-A64E-B6E570A55DBE}">
+							<Media>
+								<File Id="754479280"/>
+								<File Id="762521707"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3689126666" Name="Play_jump" ObjectPath="\Events\Default Work Unit\Play_jump" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="21348255" Language="SFX">
+							<ShortName>jump1.wav</ShortName>
+							<Path>SFX\jump1_10C4C929.wem</Path>
+						</File>
+						<File Id="180779757" Language="SFX">
+							<ShortName>jump2.wav</ShortName>
+							<Path>SFX\jump2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2593396893" Name="Play_steps_wood" ObjectPath="\Events\Default Work Unit\Play_steps_wood" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="754479280" Language="SFX">
+							<ShortName>StepOnWood-003.wav</ShortName>
+							<Path>SFX\StepOnWood-003_10C4C929.wem</Path>
+						</File>
+						<File Id="762521707" Language="SFX">
+							<ShortName>StepOnWood-005.wav</ShortName>
+							<Path>SFX\StepOnWood-005_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="3318846462" Name="indoor_ground" ObjectPath="\Switches\Default Work Unit\indoor_ground" GUID="{A00E7F08-C7C8-47BA-B3F6-1A36A6D19A43}">
+					<Switches>
+						<Switch Id="2058049674" Name="wood" ObjectPath="\Switches\Default Work Unit\indoor_ground\wood" GUID="{276CA792-3B9D-4B91-A64E-B6E570A55DBE}"/>
+						<Switch Id="1216965916" Name="stone" ObjectPath="\Switches\Default Work Unit\indoor_ground\stone" GUID="{584D563A-6825-4421-A552-1FDD379C4133}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2241196447">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1468105904" Language="SFX" Hash="606279333">
+			<ObjectPath>\SoundBanks\Default Work Unit\final_assignment_GA</ObjectPath>
+			<ShortName>final_assignment_GA</ShortName>
+			<Path>final_assignment_GA.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3114179205" Name="Play_coin" ObjectPath="\Events\Default Work Unit\Play_coin" DurationType="OneShot" DurationMin="0.378707" DurationMax="0.378707">
+					<IncludedMemoryFiles>
+						<File Id="404188990" Language="SFX">
+							<ShortName>coin.wav</ShortName>
+							<Path>SFX\coin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="631766145" Name="Play_crickets_dog" ObjectPath="\Events\Default Work Unit\Play_crickets_dog" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="524071187" Language="SFX">
+							<ShortName>crickets_dog.wav</ShortName>
+							<Path>SFX\crickets_dog_BF323CA0.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="229106035" Name="Play_door_knock" ObjectPath="\Events\Default Work Unit\Play_door_knock" DurationType="OneShot" DurationMin="1.72868" DurationMax="1.72868">
+					<IncludedMemoryFiles>
+						<File Id="132869233" Language="SFX">
+							<ShortName>door_kncok.wav</ShortName>
+							<Path>SFX\door_kncok_96007C60.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3778958205" Name="Play_doorbell" ObjectPath="\Events\Default Work Unit\Play_doorbell" DurationType="OneShot" DurationMin="2.802608" DurationMax="2.802608">
+					<IncludedMemoryFiles>
+						<File Id="1027601829" Language="SFX">
+							<ShortName>doorbell.wav</ShortName>
+							<Path>SFX\doorbell_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3689126666" Name="Play_jump" ObjectPath="\Events\Default Work Unit\Play_jump" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="21348255" Language="SFX">
+							<ShortName>jump1.wav</ShortName>
+							<Path>SFX\jump1_10C4C929.wem</Path>
+						</File>
+						<File Id="180779757" Language="SFX">
+							<ShortName>jump2.wav</ShortName>
+							<Path>SFX\jump2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="256349115" Name="Play_laughing_witch" ObjectPath="\Events\Default Work Unit\Play_laughing_witch" DurationType="OneShot" DurationMin="6.431927" DurationMax="6.431927">
+					<IncludedMemoryFiles>
+						<File Id="2843538" Language="SFX">
+							<ShortName>laughing_witch.wav</ShortName>
+							<Path>SFX\laughing_witch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="640888574" Name="Play_mushroom_hit" ObjectPath="\Events\Default Work Unit\Play_mushroom_hit" DurationType="OneShot" DurationMin="0.348299" DurationMax="0.464399">
+					<IncludedMemoryFiles>
+						<File Id="318364391" Language="SFX">
+							<ShortName>mush_coll1.wav</ShortName>
+							<Path>SFX\mush_coll1_10C4C929.wem</Path>
+						</File>
+						<File Id="426197752" Language="SFX">
+							<ShortName>mush_coll2.wav</ShortName>
+							<Path>SFX\mush_coll2_10C4C929.wem</Path>
+						</File>
+						<File Id="475982725" Language="SFX">
+							<ShortName>mush_coll3.wav</ShortName>
+							<Path>SFX\mush_coll3_10C4C929.wem</Path>
+						</File>
+						<File Id="676671332" Language="SFX">
+							<ShortName>mush_coll4.wav</ShortName>
+							<Path>SFX\mush_coll4_10C4C929.wem</Path>
+						</File>
+						<File Id="791622231" Language="SFX">
+							<ShortName>mush_coll5.wav</ShortName>
+							<Path>SFX\mush_coll5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_music" ObjectPath="\Events\Default Work Unit\Play_music" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="238313759" Language="SFX">
+							<ShortName>music.wav</ShortName>
+							<Path>SFX\music_BF323CA0.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2758007556" Name="Play_steps_grass" ObjectPath="\Events\Default Work Unit\Play_steps_grass" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="320997587" Language="SFX">
+							<ShortName>Footstep_Grass_5.wav</ShortName>
+							<Path>SFX\Footstep_Grass_5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="562428832" Language="SFX">
+							<ShortName>Footstep_Grass_3.wav</ShortName>
+							<Path>SFX\Footstep_Grass_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="669929743" Language="SFX">
+							<ShortName>Footstep_Grass_4.wav</ShortName>
+							<Path>SFX\Footstep_Grass_4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="734262878" Language="SFX">
+							<ShortName>Footstep_Grass_1.wav</ShortName>
+							<Path>SFX\Footstep_Grass_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="786704566" Language="SFX">
+							<ShortName>Footstep_Grass_2.wav</ShortName>
+							<Path>SFX\Footstep_Grass_2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2621240047" Name="Play_steps_street" ObjectPath="\Events\Default Work Unit\Play_steps_street" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="97103580" Language="SFX">
+							<ShortName>concrete footstep 1.wav</ShortName>
+							<Path>SFX\concrete footstep 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="169006181" Language="SFX">
+							<ShortName>concrete footstep 2.wav</ShortName>
+							<Path>SFX\concrete footstep 2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="460884660" Language="SFX">
+							<ShortName>concrete footstep 4.wav</ShortName>
+							<Path>SFX\concrete footstep 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="784510839" Language="SFX">
+							<ShortName>concrete footstep 3.wav</ShortName>
+							<Path>SFX\concrete footstep 3_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="speed" ObjectPath="\Game Parameters\Default Work Unit\speed"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

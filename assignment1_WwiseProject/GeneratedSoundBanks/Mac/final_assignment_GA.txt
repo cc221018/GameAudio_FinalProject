@@ -1,0 +1,53 @@
+Event	ID	Name			Wwise Object Path	Notes
+	229106035	Play_door_knock			\Default Work Unit\Play_door_knock	
+	256349115	Play_laughing_witch			\Default Work Unit\Play_laughing_witch	
+	631766145	Play_crickets_dog			\Default Work Unit\Play_crickets_dog	
+	640888574	Play_mushroom_hit			\Default Work Unit\Play_mushroom_hit	
+	2621240047	Play_steps_street			\Default Work Unit\Play_steps_street	
+	2758007556	Play_steps_grass			\Default Work Unit\Play_steps_grass	
+	2932040671	Play_music			\Default Work Unit\Play_music	
+	3114179205	Play_coin			\Default Work Unit\Play_coin	
+	3689126666	Play_jump			\Default Work Unit\Play_jump	
+	3778958205	Play_doorbell			\Default Work Unit\Play_doorbell	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1718617278	steps			\Default Work Unit\steps	
+
+State	ID	Name	State Group			Notes
+	748895195	None	steps			
+	4142189312	street	steps			
+	4248645337	grass	steps			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	74189745	street	steps	\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass		
+	1050972422	grass	steps	\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_street		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	640949982	speed			\Default Work Unit\speed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2843538	laughing_witch	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\laughing_witch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\laughing_witch		1134656
+	21348255	jump1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\jump1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump1		23120
+	97103580	concrete footstep 1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\concrete footstep 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_street\concrete footstep 1		46386
+	132869233	door_kncok	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\door_kncok_96007C60.wem		\Actor-Mixer Hierarchy\Default Work Unit\door_kncok		331968
+	169006181	concrete footstep 2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\concrete footstep 2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_street\concrete footstep 2		43298
+	180779757	jump2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\jump2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump2		35422
+	318364391	mush_coll1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\mush_coll1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_hit\mush_coll1		32832
+	320997587	Footstep_Grass_5	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\Footstep_Grass_5_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass\Footstep_Grass_5		48640
+	404188990	coin	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\coin		33466
+	426197752	mush_coll2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\mush_coll2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_hit\mush_coll2		32832
+	460884660	concrete footstep 4	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\concrete footstep 4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_street\concrete footstep 4		37122
+	475982725	mush_coll3	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\mush_coll3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_hit\mush_coll3		30784
+	562428832	Footstep_Grass_3	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\Footstep_Grass_3_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass\Footstep_Grass_3		48256
+	669929743	Footstep_Grass_4	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\Footstep_Grass_4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass\Footstep_Grass_4		48448
+	676671332	mush_coll4	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\mush_coll4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_hit\mush_coll4		41024
+	734262878	Footstep_Grass_1	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\Footstep_Grass_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass\Footstep_Grass_1		48160
+	784510839	concrete footstep 3	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\concrete footstep 3_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_street\concrete footstep 3		42062
+	786704566	Footstep_Grass_2	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\Footstep_Grass_2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\steps\steps_grass\Footstep_Grass_2		47936
+	791622231	mush_coll5	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\mush_coll5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\mushroom_hit\mush_coll5		41024
+	1027601829	doorbell	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\doorbell_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doorbell		494444
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	238313759	music	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\music_BF323CA0.wem	238313759.wem	\Actor-Mixer Hierarchy\Default Work Unit\music	
+	524071187	crickets_dog	C:\FHSTP\SS24\EbCRD\assignment1\assignment1_WwiseProject\.cache\Mac\SFX\crickets_dog_BF323CA0.wem	524071187.wem	\Actor-Mixer Hierarchy\Default Work Unit\crickets_dog	
+
